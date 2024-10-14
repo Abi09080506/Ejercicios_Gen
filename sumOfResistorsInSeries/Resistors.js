@@ -4,7 +4,7 @@ const sumaResistencias = function (resistencia){ // está es la función
     for (let i=0; i<resistencia.length;i++){
         totalResistencia += Math.abs (resistencia[i]);
     }
-    return `${totalResistencia} ohms`;
+    return totalResistencia + "ohms";
 }
 
 let input = prompt("Ingresa los números de resistencias separados por comas (ej. 1,2,3)");
